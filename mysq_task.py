@@ -3,8 +3,8 @@ import mysql.connector
 def create_connection():
     conn = mysql.connector.connect(
         host='localhost',  # или '127.0.0.1'
-        user='root',
-        password='Ristedoma321323A#',
+        user='name',
+        password='name_of_password',
         database='tasks_db'
     )
     return conn
